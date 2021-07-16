@@ -1,1 +1,1 @@
-worker: nodejs index.js
+작업자: 파이썬index.py
