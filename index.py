@@ -39,5 +39,6 @@ async def on_message(message):
     if message.content.startswith("!차단"):
         member = message.guild.get_member(int(message.content.split(" ")[1]))
         await message.guild.ban(member, reason=''.join(message.content.split(" ")[2:]))
-
-Client.run(token)
+        
+acces_token = os.environ["BOT_TOKEN"]
+Client.run(access_token)
