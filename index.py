@@ -1,7 +1,5 @@
 import discord
-from discord import client
-from discord import member
-from discord.flags import Intents #모듈 불러오기
+import os 
 token = "ODM5NjQxMjQyNzAyOTcwODgw.YJMm2A.Bghz8ZgtzE07T533touSgTwhNdE"
 Client = discord.Client()
 intents = discord.Intents.all()
