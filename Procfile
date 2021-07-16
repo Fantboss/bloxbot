@@ -1,1 +1,1 @@
-작업자: 파이썬index.py
+worker: python index.py
