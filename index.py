@@ -1,6 +1,6 @@
 import discord
 import openpyxl
-token = "ODM5NjQxMjQyNzAyOTcwODgw.YJMm2A.vCErUGDxqozpm492a10XwRW1ZSs"
+token = "ODM5NjQxMjQyNzAyOTcwODgw.YJMm2A.BurjUvW6blboob67Tf59nl1HHY4"
 intents = discord.Intents.all()
 Client = discord.Client(intents=intents)
 
